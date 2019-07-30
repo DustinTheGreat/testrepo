@@ -1,9 +1,7 @@
-#!usr/bin/python
+#!usr/bin/python3.6
 
 
 import os
-
-
 def run(**args):
-	print "[*] in eviroment module"
-	return str(os.environ)
+  command_output = "[*] In environ module:\n\n"
+  return command_output + str(os.environ) + "\n\n"
