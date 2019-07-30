@@ -1,14 +1,6 @@
-#!usr/bin/python
-
+#!usr/bin/python3.6
 
 import os
-
-
 def run(**args):
-	print "[*] in dir list module."
-	files  = os.listdir(".")
-
-	return str(files)
-
-
-	
+  command_output = "[*] In environ module:\n\n"
+  return command_output + str(os.environ) + "\n\n"
